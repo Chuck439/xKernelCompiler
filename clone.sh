@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ================================================
-echo Cloning gcc
+echo                  Cloning GCC
 echo ================================================
 
 git clone https://github.com/mvaisakh/gcc-arm64
