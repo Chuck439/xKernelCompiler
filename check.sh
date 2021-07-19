@@ -11,6 +11,7 @@ echo ================================================
 echo BUILDER NAME = ${KBUILD_BUILD_USER}
 echo BUILDER HOSTNAME = ${KBUILD_BUILD_HOST}
 echo DEVICE_DEFCONFIG = ${DEVICE_DEFCONFIG}
-echo CLANG_ROOTDIR = ${CLANG_ROOTDIR}
+echo GCC_ARM64_DIR = ${GCC_ARM64_DIR}
+echo GCC_ARM_DIR = ${GCC_ARM_DIR}
 echo KERNEL_ROOTDIR = ${KERNEL_ROOTDIR}
 echo ================================================

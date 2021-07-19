@@ -5,6 +5,7 @@
 # Main
 KERNEL_ROOTDIR=$(pwd)/kernel
 DEVICE_DEFCONFIG=olive-perf_defconfig
-CLANG_ROOTDIR=$(pwd)/clang
+GCC_ARM64_DIR=$(pwd)/gcc-arm64
+GCC_ARM_DIR=$(pwd)/gcc-arm
 export KBUILD_BUILD_USER=chuck
 export KBUILD_BUILD_HOST=kentang
