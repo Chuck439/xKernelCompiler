@@ -4,6 +4,10 @@
 
 echo Starting Compile Script . . .
 
+function clone(){
+	. clone.sh
+}
+
 function target(){
 	. target.sh
 }
@@ -16,6 +20,7 @@ function compile(){
 	. compile.sh
 }
 
+clone
 target
 check
 compile
